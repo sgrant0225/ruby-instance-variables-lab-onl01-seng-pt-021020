@@ -1,7 +1,7 @@
 class Dog 
   
   def name=(dog_name) #defined the instance method #setter
-    this_dogs_name = dog_name
+    @this_dogs_name = dog_name
   end
   
   def name #the getter
